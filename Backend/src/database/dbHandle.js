@@ -40,5 +40,3 @@ async function initDatabase(db) {
     const sql = fs.readFileSync(initScript).toString();
     await db.exec(sql);
 }
-
-//test
